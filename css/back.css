@@ -1,0 +1,7 @@
+#header{
+    height: 100px;
+}
+#container{
+    min-height:calc(100vh - 100px - 3rem) ;
+
+    }
