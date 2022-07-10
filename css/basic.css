@@ -34,3 +34,34 @@ height: 3rem;
 background: black;
 color: azure;
 }
+/*--common components---*/
+.btn{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: lightgray;
+    padding:0.25rem 0.75rem;
+    font-size:1.1rem;
+    box-sizing: 0 0 10px #ccc;
+}
+.btn.btn-primary{
+    background-color: rgb(49, 134, 245);
+}
+.btn.btn-info{
+    background-color: aqua;
+}
+.btn.btn-danger{
+    background-color: rgb(243, 114, 114);
+}
+.btn.btn-warning{
+    background-color: rgb(230, 230, 31);
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
