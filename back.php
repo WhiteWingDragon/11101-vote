@@ -57,7 +57,7 @@ if(isset($file) && file_exists($file)){
                         $remain=floor(($end-$today)/(60*60*24));
                         echo "倒數".$remain."天結束";
                     }else{
-                        echo "<span style='color:grey>投票已結束</span>";
+                        echo "<span style='color:grey'>投票已結束</span>";
                     }
                 echo "</div>";
                 echo "<div class='text-center'>{$subject['total']}</div>";
@@ -76,5 +76,6 @@ if(isset($file) && file_exists($file)){
 </div>
 <div>
     <?php include "./layout/footer.php";?>    
+</div>
 </body>
 </html>

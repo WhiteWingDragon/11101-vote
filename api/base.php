@@ -1,6 +1,7 @@
 <?php
 session_start();
 date_default_timezone_set('Asia/Taipei');
+
 function pdo(){
     $dsn="mysql:host=localhost;charset=utf8;dbname=vote";
     return new PDO($dsn,'root','');
@@ -28,7 +29,7 @@ function all($table,...$arg){
         case 1:
     
             //判斷參數是否為陣列
-            if(is_array($arg[0])){
+            if(is_array($arg[0]) && !empty($arg[0])){
     
                 //使用迴圈來建立條件語句的字串型式，並暫存在陣列中
                 foreach($arg[0] as $key => $value){
@@ -39,23 +40,29 @@ function all($table,...$arg){
     
                 //使用implode()來轉換陣列為字串並和原本的$sql字串再結合
                 $sql.=" WHERE ". implode(" AND " ,$tmp);
+            }elseif(empty($arg[0])){
+                            
             }else{
-                
                 //如果參數不是陣列，那應該是SQL語句字串，因此直接接在原本的$sql字串之後即可
                 $sql.=$arg[0];
+
             }
         break;
         case 2:
     
-            //第一個參數必須為陣列，使用迴圈來建立條件語句的陣列
-            foreach($arg[0] as $key => $value){
-    
-                $tmp[]="`$key`='$value'";
-    
+            if(!empty($arg[0])){
+                //第一個參數必須為陣列，使用迴圈來建立條件語句的陣列
+                foreach($arg[0] as $key => $value){
+                    
+                    $tmp[]="`$key`='$value'";
+                    
+                }
+                
+                        //將條件語句的陣列使用implode()來轉成字串，最後再接上第二個參數(必須為字串)
+                        $sql.=" WHERE ". implode(" AND " ,$tmp) . $arg[1];
+            }else{
+                $sql.=$arg[1];
             }
-    
-            //將條件語句的陣列使用implode()來轉成字串，最後再接上第二個參數(必須為字串)
-            $sql.=" WHERE ". implode(" AND " ,$tmp) . $arg[1];
         break;
     
         //執行連線資料庫查詢並回傳sql語句執行的結果
@@ -63,6 +70,7 @@ function all($table,...$arg){
     
         //fetchAll()加上常數參數FETCH_ASSOC是為了讓取回的資料陣列中
         //只有欄位名稱,而沒有數字的索引值
+        echo $sql;
         return $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
     
     }
@@ -101,7 +109,7 @@ function find($table,$arg){
 function del($table,$arg){
     $pdo=pdo();
 
-$sql="DELETE FROM $table WHERE ";
+    $sql="DELETE FROM $table WHERE ";
     if(is_array($arg)){
 
         foreach($arg as $key => $value){
@@ -114,7 +122,7 @@ $sql="DELETE FROM $table WHERE ";
 
     }else{
 
-        $sql.="DELETE FROM $table WHERE `id`='$arg'";
+        $sql.=" `id`='$arg'";
 
     }
 
@@ -189,14 +197,16 @@ function  save($table,$arg){
         $sql="INSERT INTO $table (`$cols`) VALUES('$values')";
 
     }
-    
+    //echo $sql;
     return $pdo->exec($sql);
 
 }
 
-function dd($arry){
+
+function dd($array){
     echo "<pre>";
-    print_r($arry);
+    print_r($array);
     echo "</pre>";
 }
+
 ?>

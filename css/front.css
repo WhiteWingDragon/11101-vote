@@ -5,19 +5,6 @@
     .list{
         margin:1rem 0 1rem 6rem;
     }
-    .list-items{
-        display:flex;
-        justify-content: space-evenly;
-        padding:0.5rem;
-        margin:0.25rem 0;
-        border-bottom:1px solid #eee;
-        font-weight: bold;
-        font-size:1.15rem;
-    }
-    .list-items:hover{
-        background-color: rgb(216, 255, 237);
-        cursor: pointer;
-    }
     .list-header{
         display:flex;
         justify-content: space-evenly;
@@ -33,7 +20,38 @@
         background:blue;
         color:#ccc;
     }
-    .list-items a div{
+    .list-header div a{
+        color: lightgrey;
+    }
+    .list-items div{
         width:calc(100% / 5);
         padding:0.5rem 1rem;
+    }
+    .list-items{
+        display:flex;
+        justify-content: space-evenly;
+        padding:0.5rem;
+        margin:0.25rem 0;
+        border-bottom:1px solid #eee;
+        font-weight: bold;
+        font-size:1.15rem;
+    }
+    .list-items:hover{
+        background-color: rgb(216, 255, 237);
+        cursor: pointer;
+    }
+    .result-table{
+        border-collapse: collapse;
+        box-shadow: 0 0 6px #bbb;
+    }
+    .result-table td{
+        padding: 0.25rem;
+        border:1px solid #ccc;
+    }
+    
+    #types{
+        padding:0.25rem 0.5rem;
+        font-size:1.25rem;
+        border:0;
+        border-bottom:2px solid orange;
     }

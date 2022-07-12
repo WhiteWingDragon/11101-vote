@@ -31,8 +31,5 @@ if(isset($file) && file_exists($file)){
 </body>
 </html>
 </div>
-<div>
-    <?php include "./layout/footer.php";?>
-</div> 
 </body>
 </html>
