@@ -1,0 +1,1682 @@
+:root {
+  --ease: cubic-bezier(.66,-0.11,.73,1.13);
+  --ease: cubic-bezier(.5,0,.5,1);
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to top, #b6da7d, #bfdf8d);
+  overflow: hidden;
+}
+
+.ground {
+  position: absolute;
+  width: 400px;
+  height: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.blade-1 {
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-left: 19px solid transparent;
+  border-bottom: 140px solid #82ab4b;
+  -webkit-animation: sway var(--ease) infinite alternate;
+          animation: sway var(--ease) infinite alternate;
+}
+
+.blade-2 {
+  width: 0;
+  height: 0;
+  border-right: 14px solid transparent;
+  border-left: 11px solid transparent;
+  border-bottom: 120px solid #a2cb62;
+  -webkit-animation: sway var(--ease) infinite alternate;
+          animation: sway var(--ease) infinite alternate;
+}
+
+.blade-3 {
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-left: 9px solid transparent;
+  border-bottom: 110px solid #658e47;
+  -webkit-animation: sway var(--ease) infinite alternate;
+          animation: sway var(--ease) infinite alternate;
+}
+
+.blade-4 {
+  width: 0;
+  height: 0;
+  border-right: 14px solid transparent;
+  border-left: 11px solid transparent;
+  border-bottom: 90px solid #87ae55;
+  -webkit-animation: sway var(--ease) infinite alternate;
+          animation: sway var(--ease) infinite alternate;
+}
+
+[class|=blade] {
+  position: absolute;
+  bottom: 0;
+  transform-origin: center bottom;
+}
+
+[class|=blade]:nth-child(1) {
+  left: 435px;
+  -webkit-animation-delay: 0.6436797156s;
+          animation-delay: 0.6436797156s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(2) {
+  left: 171px;
+  -webkit-animation-delay: 0.7644823738s;
+          animation-delay: 0.7644823738s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(3) {
+  left: 224px;
+  -webkit-animation-delay: 0.0857737969s;
+          animation-delay: 0.0857737969s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(4) {
+  left: 201px;
+  -webkit-animation-delay: 0.5649274986s;
+          animation-delay: 0.5649274986s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(5) {
+  left: 332px;
+  -webkit-animation-delay: 0.7045555404s;
+          animation-delay: 0.7045555404s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(6) {
+  left: 282px;
+  -webkit-animation-delay: 0.3173840399s;
+          animation-delay: 0.3173840399s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(7) {
+  left: 913px;
+  -webkit-animation-delay: 0.2131609306s;
+          animation-delay: 0.2131609306s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(8) {
+  left: 510px;
+  -webkit-animation-delay: 0.621966259s;
+          animation-delay: 0.621966259s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(9) {
+  left: 629px;
+  -webkit-animation-delay: 0.2854888351s;
+          animation-delay: 0.2854888351s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(10) {
+  left: 795px;
+  -webkit-animation-delay: 0.6703328673s;
+          animation-delay: 0.6703328673s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(11) {
+  left: 887px;
+  -webkit-animation-delay: 0.4675191938s;
+          animation-delay: 0.4675191938s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(12) {
+  left: 422px;
+  -webkit-animation-delay: 0.3050183905s;
+          animation-delay: 0.3050183905s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(13) {
+  left: 732px;
+  -webkit-animation-delay: 0.8979534353s;
+          animation-delay: 0.8979534353s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(14) {
+  left: 41px;
+  -webkit-animation-delay: 0.2059751197s;
+          animation-delay: 0.2059751197s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(15) {
+  left: 409px;
+  -webkit-animation-delay: 0.3713708643s;
+          animation-delay: 0.3713708643s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(16) {
+  left: 440px;
+  -webkit-animation-delay: 0.7802310458s;
+          animation-delay: 0.7802310458s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(17) {
+  left: 475px;
+  -webkit-animation-delay: 0.7278810503s;
+          animation-delay: 0.7278810503s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(18) {
+  left: 710px;
+  -webkit-animation-delay: 0.4403210747s;
+          animation-delay: 0.4403210747s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(19) {
+  left: 751px;
+  -webkit-animation-delay: 0.5063105713s;
+          animation-delay: 0.5063105713s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(20) {
+  left: 758px;
+  -webkit-animation-delay: 0.820475166s;
+          animation-delay: 0.820475166s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(21) {
+  left: 920px;
+  -webkit-animation-delay: 0.069743857s;
+          animation-delay: 0.069743857s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(22) {
+  left: 400px;
+  -webkit-animation-delay: 0.1244990325s;
+          animation-delay: 0.1244990325s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(23) {
+  left: 132px;
+  -webkit-animation-delay: 0.3556723239s;
+          animation-delay: 0.3556723239s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(24) {
+  left: 440px;
+  -webkit-animation-delay: 0.8343784069s;
+          animation-delay: 0.8343784069s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(25) {
+  left: 637px;
+  -webkit-animation-delay: 0.8888111493s;
+          animation-delay: 0.8888111493s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(26) {
+  left: 597px;
+  -webkit-animation-delay: 0.3640637211s;
+          animation-delay: 0.3640637211s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(27) {
+  left: 480px;
+  -webkit-animation-delay: 0.3166825838s;
+          animation-delay: 0.3166825838s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(28) {
+  left: 78px;
+  -webkit-animation-delay: 0.0529681573s;
+          animation-delay: 0.0529681573s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(29) {
+  left: 48px;
+  -webkit-animation-delay: 0.544402111s;
+          animation-delay: 0.544402111s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(30) {
+  left: 588px;
+  -webkit-animation-delay: 0.2996408767s;
+          animation-delay: 0.2996408767s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(31) {
+  left: 783px;
+  -webkit-animation-delay: 0.6685070674s;
+          animation-delay: 0.6685070674s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(32) {
+  left: 778px;
+  -webkit-animation-delay: 0.4920985498s;
+          animation-delay: 0.4920985498s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(33) {
+  left: 394px;
+  -webkit-animation-delay: 0.0989117721s;
+          animation-delay: 0.0989117721s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(34) {
+  left: 828px;
+  -webkit-animation-delay: 0.3223969465s;
+          animation-delay: 0.3223969465s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(35) {
+  left: 43px;
+  -webkit-animation-delay: 0.0752831517s;
+          animation-delay: 0.0752831517s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(36) {
+  left: 722px;
+  -webkit-animation-delay: 0.1721669316s;
+          animation-delay: 0.1721669316s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(37) {
+  left: 874px;
+  -webkit-animation-delay: 0.4767808029s;
+          animation-delay: 0.4767808029s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(38) {
+  left: 497px;
+  -webkit-animation-delay: 0.5995381555s;
+          animation-delay: 0.5995381555s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(39) {
+  left: 122px;
+  -webkit-animation-delay: 0.0057063997s;
+          animation-delay: 0.0057063997s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(40) {
+  left: 213px;
+  -webkit-animation-delay: 0.5076374433s;
+          animation-delay: 0.5076374433s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(41) {
+  left: 245px;
+  -webkit-animation-delay: 0.2039577636s;
+          animation-delay: 0.2039577636s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(42) {
+  left: 47px;
+  -webkit-animation-delay: 0.4024577092s;
+          animation-delay: 0.4024577092s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(43) {
+  left: 973px;
+  -webkit-animation-delay: 0.5730968639s;
+          animation-delay: 0.5730968639s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(44) {
+  left: 973px;
+  -webkit-animation-delay: 0.7942526363s;
+          animation-delay: 0.7942526363s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(45) {
+  left: 911px;
+  -webkit-animation-delay: 0.7952011089s;
+          animation-delay: 0.7952011089s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(46) {
+  left: 11px;
+  -webkit-animation-delay: 0.2445974411s;
+          animation-delay: 0.2445974411s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(47) {
+  left: 864px;
+  -webkit-animation-delay: 0.1609674047s;
+          animation-delay: 0.1609674047s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(48) {
+  left: 499px;
+  -webkit-animation-delay: 0.4968983122s;
+          animation-delay: 0.4968983122s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(49) {
+  left: 716px;
+  -webkit-animation-delay: 0.8221266103s;
+          animation-delay: 0.8221266103s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(50) {
+  left: 916px;
+  -webkit-animation-delay: 0.6777594214s;
+          animation-delay: 0.6777594214s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(51) {
+  left: 32px;
+  -webkit-animation-delay: 0.1740412415s;
+          animation-delay: 0.1740412415s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(52) {
+  left: 452px;
+  -webkit-animation-delay: 0.3896399071s;
+          animation-delay: 0.3896399071s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(53) {
+  left: 389px;
+  -webkit-animation-delay: 0.2429858042s;
+          animation-delay: 0.2429858042s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(54) {
+  left: 741px;
+  -webkit-animation-delay: 0.7424305232s;
+          animation-delay: 0.7424305232s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(55) {
+  left: 149px;
+  -webkit-animation-delay: 0.1639954601s;
+          animation-delay: 0.1639954601s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(56) {
+  left: 871px;
+  -webkit-animation-delay: 0.1217473452s;
+          animation-delay: 0.1217473452s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(57) {
+  left: 452px;
+  -webkit-animation-delay: 0.5648606653s;
+          animation-delay: 0.5648606653s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(58) {
+  left: 839px;
+  -webkit-animation-delay: 0.6416933338s;
+          animation-delay: 0.6416933338s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(59) {
+  left: 27px;
+  -webkit-animation-delay: 0.1326751907s;
+          animation-delay: 0.1326751907s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(60) {
+  left: 802px;
+  -webkit-animation-delay: 0.0157125284s;
+          animation-delay: 0.0157125284s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(61) {
+  left: 869px;
+  -webkit-animation-delay: 0.1261356313s;
+          animation-delay: 0.1261356313s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(62) {
+  left: 781px;
+  -webkit-animation-delay: 0.7545969397s;
+          animation-delay: 0.7545969397s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(63) {
+  left: 10px;
+  -webkit-animation-delay: 0.3263910189s;
+          animation-delay: 0.3263910189s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(64) {
+  left: 790px;
+  -webkit-animation-delay: 0.5019630787s;
+          animation-delay: 0.5019630787s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(65) {
+  left: 870px;
+  -webkit-animation-delay: 0.7581236083s;
+          animation-delay: 0.7581236083s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(66) {
+  left: 106px;
+  -webkit-animation-delay: 0.6255993306s;
+          animation-delay: 0.6255993306s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(67) {
+  left: 343px;
+  -webkit-animation-delay: 0.765996274s;
+          animation-delay: 0.765996274s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(68) {
+  left: 607px;
+  -webkit-animation-delay: 0.0444386573s;
+          animation-delay: 0.0444386573s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(69) {
+  left: 219px;
+  -webkit-animation-delay: 0.9567169109s;
+          animation-delay: 0.9567169109s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(70) {
+  left: 797px;
+  -webkit-animation-delay: 0.1725663812s;
+          animation-delay: 0.1725663812s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(71) {
+  left: 742px;
+  -webkit-animation-delay: 0.7566899102s;
+          animation-delay: 0.7566899102s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(72) {
+  left: 250px;
+  -webkit-animation-delay: 0.2379733741s;
+          animation-delay: 0.2379733741s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(73) {
+  left: 362px;
+  -webkit-animation-delay: 0.8327763744s;
+          animation-delay: 0.8327763744s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(74) {
+  left: 609px;
+  -webkit-animation-delay: 0.9677958895s;
+          animation-delay: 0.9677958895s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(75) {
+  left: 133px;
+  -webkit-animation-delay: 0.9171173677s;
+          animation-delay: 0.9171173677s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(76) {
+  left: 101px;
+  -webkit-animation-delay: 0.7004210267s;
+          animation-delay: 0.7004210267s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(77) {
+  left: 125px;
+  -webkit-animation-delay: 0.1909081387s;
+          animation-delay: 0.1909081387s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(78) {
+  left: 12px;
+  -webkit-animation-delay: 0.4149125426s;
+          animation-delay: 0.4149125426s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(79) {
+  left: 188px;
+  -webkit-animation-delay: 0.9501017427s;
+          animation-delay: 0.9501017427s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(80) {
+  left: 667px;
+  -webkit-animation-delay: 0.100434242s;
+          animation-delay: 0.100434242s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(81) {
+  left: 253px;
+  -webkit-animation-delay: 0.0658694146s;
+          animation-delay: 0.0658694146s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(82) {
+  left: 210px;
+  -webkit-animation-delay: 0.0347938601s;
+          animation-delay: 0.0347938601s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(83) {
+  left: 650px;
+  -webkit-animation-delay: 0.2366211571s;
+          animation-delay: 0.2366211571s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(84) {
+  left: 778px;
+  -webkit-animation-delay: 0.5754519155s;
+          animation-delay: 0.5754519155s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(85) {
+  left: 233px;
+  -webkit-animation-delay: 0.343120635s;
+          animation-delay: 0.343120635s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(86) {
+  left: 789px;
+  -webkit-animation-delay: 0.2123384505s;
+          animation-delay: 0.2123384505s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(87) {
+  left: 134px;
+  -webkit-animation-delay: 0.2762311286s;
+          animation-delay: 0.2762311286s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(88) {
+  left: 94px;
+  -webkit-animation-delay: 0.8077329828s;
+          animation-delay: 0.8077329828s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(89) {
+  left: 622px;
+  -webkit-animation-delay: 0.3033905962s;
+          animation-delay: 0.3033905962s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(90) {
+  left: 197px;
+  -webkit-animation-delay: 0.2265269098s;
+          animation-delay: 0.2265269098s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(91) {
+  left: 188px;
+  -webkit-animation-delay: 0.8480927364s;
+          animation-delay: 0.8480927364s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(92) {
+  left: 978px;
+  -webkit-animation-delay: 0.6130740454s;
+          animation-delay: 0.6130740454s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(93) {
+  left: 732px;
+  -webkit-animation-delay: 0.7724532445s;
+          animation-delay: 0.7724532445s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(94) {
+  left: 853px;
+  -webkit-animation-delay: 0.289082051s;
+          animation-delay: 0.289082051s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(95) {
+  left: 90px;
+  -webkit-animation-delay: 0.5525447144s;
+          animation-delay: 0.5525447144s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(96) {
+  left: 166px;
+  -webkit-animation-delay: 0.0731348664s;
+          animation-delay: 0.0731348664s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(97) {
+  left: 935px;
+  -webkit-animation-delay: 0.9731484132s;
+          animation-delay: 0.9731484132s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(98) {
+  left: 448px;
+  -webkit-animation-delay: 0.0397672986s;
+          animation-delay: 0.0397672986s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(99) {
+  left: 821px;
+  -webkit-animation-delay: 0.4993357864s;
+          animation-delay: 0.4993357864s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(100) {
+  left: 937px;
+  -webkit-animation-delay: 0.3375371789s;
+          animation-delay: 0.3375371789s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(101) {
+  left: 151px;
+  -webkit-animation-delay: 0.5246648302s;
+          animation-delay: 0.5246648302s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(102) {
+  left: 52px;
+  -webkit-animation-delay: 0.1556660548s;
+          animation-delay: 0.1556660548s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(103) {
+  left: 346px;
+  -webkit-animation-delay: 0.499356388s;
+          animation-delay: 0.499356388s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(104) {
+  left: 382px;
+  -webkit-animation-delay: 0.0084861668s;
+          animation-delay: 0.0084861668s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(105) {
+  left: 548px;
+  -webkit-animation-delay: 0.8855837512s;
+          animation-delay: 0.8855837512s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(106) {
+  left: 904px;
+  -webkit-animation-delay: 0.6723536997s;
+          animation-delay: 0.6723536997s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(107) {
+  left: 744px;
+  -webkit-animation-delay: 0.1258577242s;
+          animation-delay: 0.1258577242s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(108) {
+  left: 853px;
+  -webkit-animation-delay: 0.5189326859s;
+          animation-delay: 0.5189326859s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(109) {
+  left: 263px;
+  -webkit-animation-delay: 0.1662317935s;
+          animation-delay: 0.1662317935s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(110) {
+  left: 591px;
+  -webkit-animation-delay: 0.7513515215s;
+          animation-delay: 0.7513515215s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(111) {
+  left: 471px;
+  -webkit-animation-delay: 0.1590038283s;
+          animation-delay: 0.1590038283s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(112) {
+  left: 719px;
+  -webkit-animation-delay: 0.8495079634s;
+          animation-delay: 0.8495079634s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(113) {
+  left: 275px;
+  -webkit-animation-delay: 0.2863072958s;
+          animation-delay: 0.2863072958s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(114) {
+  left: 479px;
+  -webkit-animation-delay: 0.2945419173s;
+          animation-delay: 0.2945419173s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(115) {
+  left: 290px;
+  -webkit-animation-delay: 0.350709013s;
+          animation-delay: 0.350709013s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(116) {
+  left: 74px;
+  -webkit-animation-delay: 0.8027559239s;
+          animation-delay: 0.8027559239s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(117) {
+  left: 569px;
+  -webkit-animation-delay: 0.0260872609s;
+          animation-delay: 0.0260872609s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(118) {
+  left: 189px;
+  -webkit-animation-delay: 0.8865493041s;
+          animation-delay: 0.8865493041s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(119) {
+  left: 181px;
+  -webkit-animation-delay: 0.2940161047s;
+          animation-delay: 0.2940161047s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(120) {
+  left: 657px;
+  -webkit-animation-delay: 0.8992880889s;
+          animation-delay: 0.8992880889s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(121) {
+  left: 726px;
+  -webkit-animation-delay: 0.4143154825s;
+          animation-delay: 0.4143154825s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(122) {
+  left: 942px;
+  -webkit-animation-delay: 0.3527769911s;
+          animation-delay: 0.3527769911s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(123) {
+  left: 263px;
+  -webkit-animation-delay: 0.8826784277s;
+          animation-delay: 0.8826784277s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(124) {
+  left: 752px;
+  -webkit-animation-delay: 0.7791956381s;
+          animation-delay: 0.7791956381s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(125) {
+  left: 824px;
+  -webkit-animation-delay: 0.5512052738s;
+          animation-delay: 0.5512052738s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(126) {
+  left: 58px;
+  -webkit-animation-delay: 0.2558409827s;
+          animation-delay: 0.2558409827s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(127) {
+  left: 309px;
+  -webkit-animation-delay: 0.1643781118s;
+          animation-delay: 0.1643781118s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(128) {
+  left: 771px;
+  -webkit-animation-delay: 0.8437691806s;
+          animation-delay: 0.8437691806s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(129) {
+  left: 845px;
+  -webkit-animation-delay: 0.1717638355s;
+          animation-delay: 0.1717638355s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(130) {
+  left: 581px;
+  -webkit-animation-delay: 0.6035084824s;
+          animation-delay: 0.6035084824s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(131) {
+  left: 306px;
+  -webkit-animation-delay: 0.7401464416s;
+          animation-delay: 0.7401464416s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(132) {
+  left: 981px;
+  -webkit-animation-delay: 0.472969135s;
+          animation-delay: 0.472969135s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(133) {
+  left: 83px;
+  -webkit-animation-delay: 0.3149452538s;
+          animation-delay: 0.3149452538s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(134) {
+  left: 559px;
+  -webkit-animation-delay: 0.295944893s;
+          animation-delay: 0.295944893s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(135) {
+  left: 436px;
+  -webkit-animation-delay: 0.352663219s;
+          animation-delay: 0.352663219s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(136) {
+  left: 274px;
+  -webkit-animation-delay: 0.3552625193s;
+          animation-delay: 0.3552625193s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(137) {
+  left: 896px;
+  -webkit-animation-delay: 0.5093346328s;
+          animation-delay: 0.5093346328s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(138) {
+  left: 537px;
+  -webkit-animation-delay: 0.7503739075s;
+          animation-delay: 0.7503739075s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(139) {
+  left: 144px;
+  -webkit-animation-delay: 0.0555404461s;
+          animation-delay: 0.0555404461s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(140) {
+  left: 686px;
+  -webkit-animation-delay: 0.200939168s;
+          animation-delay: 0.200939168s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(141) {
+  left: 14px;
+  -webkit-animation-delay: 0.1331496148s;
+          animation-delay: 0.1331496148s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(142) {
+  left: 588px;
+  -webkit-animation-delay: 0.7296820396s;
+          animation-delay: 0.7296820396s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(143) {
+  left: 291px;
+  -webkit-animation-delay: 0.4052591213s;
+          animation-delay: 0.4052591213s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(144) {
+  left: 590px;
+  -webkit-animation-delay: 0.3600243441s;
+          animation-delay: 0.3600243441s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(145) {
+  left: 143px;
+  -webkit-animation-delay: 0.6123709935s;
+          animation-delay: 0.6123709935s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(146) {
+  left: 320px;
+  -webkit-animation-delay: 0.6539860799s;
+          animation-delay: 0.6539860799s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(147) {
+  left: 154px;
+  -webkit-animation-delay: 0.0506044082s;
+          animation-delay: 0.0506044082s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(148) {
+  left: 393px;
+  -webkit-animation-delay: 0.5671140625s;
+          animation-delay: 0.5671140625s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(149) {
+  left: 688px;
+  -webkit-animation-delay: 0.2186860589s;
+          animation-delay: 0.2186860589s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(150) {
+  left: 498px;
+  -webkit-animation-delay: 0.94373784s;
+          animation-delay: 0.94373784s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(151) {
+  left: 858px;
+  -webkit-animation-delay: 0.5134160219s;
+          animation-delay: 0.5134160219s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(152) {
+  left: 621px;
+  -webkit-animation-delay: 0.4501917789s;
+          animation-delay: 0.4501917789s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(153) {
+  left: 558px;
+  -webkit-animation-delay: 0.5058580735s;
+          animation-delay: 0.5058580735s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(154) {
+  left: 567px;
+  -webkit-animation-delay: 0.7020973974s;
+          animation-delay: 0.7020973974s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(155) {
+  left: 85px;
+  -webkit-animation-delay: 0.9139611934s;
+          animation-delay: 0.9139611934s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(156) {
+  left: 497px;
+  -webkit-animation-delay: 0.1267236688s;
+          animation-delay: 0.1267236688s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(157) {
+  left: 457px;
+  -webkit-animation-delay: 0.3428597656s;
+          animation-delay: 0.3428597656s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(158) {
+  left: 282px;
+  -webkit-animation-delay: 0.6115976227s;
+          animation-delay: 0.6115976227s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(159) {
+  left: 207px;
+  -webkit-animation-delay: 0.0487147128s;
+          animation-delay: 0.0487147128s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(160) {
+  left: 801px;
+  -webkit-animation-delay: 0.3023943662s;
+          animation-delay: 0.3023943662s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(161) {
+  left: 419px;
+  -webkit-animation-delay: 0.1684237635s;
+          animation-delay: 0.1684237635s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(162) {
+  left: 17px;
+  -webkit-animation-delay: 0.4078649361s;
+          animation-delay: 0.4078649361s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(163) {
+  left: 897px;
+  -webkit-animation-delay: 0.702074072s;
+          animation-delay: 0.702074072s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(164) {
+  left: 450px;
+  -webkit-animation-delay: 0.8547937995s;
+          animation-delay: 0.8547937995s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(165) {
+  left: 131px;
+  -webkit-animation-delay: 0.5928511666s;
+          animation-delay: 0.5928511666s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(166) {
+  left: 876px;
+  -webkit-animation-delay: 0.9679773312s;
+          animation-delay: 0.9679773312s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(167) {
+  left: 712px;
+  -webkit-animation-delay: 0.1335998704s;
+          animation-delay: 0.1335998704s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(168) {
+  left: 394px;
+  -webkit-animation-delay: 0.3862623408s;
+          animation-delay: 0.3862623408s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(169) {
+  left: 872px;
+  -webkit-animation-delay: 0.5387894499s;
+          animation-delay: 0.5387894499s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(170) {
+  left: 190px;
+  -webkit-animation-delay: 0.3688347531s;
+          animation-delay: 0.3688347531s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(171) {
+  left: 922px;
+  -webkit-animation-delay: 0.624983678s;
+          animation-delay: 0.624983678s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(172) {
+  left: 466px;
+  -webkit-animation-delay: 0.6168081144s;
+          animation-delay: 0.6168081144s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(173) {
+  left: 275px;
+  -webkit-animation-delay: 0.9170985256s;
+          animation-delay: 0.9170985256s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(174) {
+  left: 269px;
+  -webkit-animation-delay: 0.1061873132s;
+          animation-delay: 0.1061873132s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(175) {
+  left: 970px;
+  -webkit-animation-delay: 0.6761683064s;
+          animation-delay: 0.6761683064s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(176) {
+  left: 650px;
+  -webkit-animation-delay: 0.3954072925s;
+          animation-delay: 0.3954072925s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(177) {
+  left: 90px;
+  -webkit-animation-delay: 0.797337548s;
+          animation-delay: 0.797337548s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(178) {
+  left: 102px;
+  -webkit-animation-delay: 0.6143658873s;
+          animation-delay: 0.6143658873s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(179) {
+  left: 448px;
+  -webkit-animation-delay: 0.4777275732s;
+          animation-delay: 0.4777275732s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(180) {
+  left: 330px;
+  -webkit-animation-delay: 0.9716109532s;
+          animation-delay: 0.9716109532s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(181) {
+  left: 304px;
+  -webkit-animation-delay: 0.6163413627s;
+          animation-delay: 0.6163413627s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(182) {
+  left: 267px;
+  -webkit-animation-delay: 0.4222391469s;
+          animation-delay: 0.4222391469s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(183) {
+  left: 142px;
+  -webkit-animation-delay: 0.3879703151s;
+          animation-delay: 0.3879703151s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(184) {
+  left: 407px;
+  -webkit-animation-delay: 0.1081841232s;
+          animation-delay: 0.1081841232s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(185) {
+  left: 842px;
+  -webkit-animation-delay: 0.5487787969s;
+          animation-delay: 0.5487787969s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(186) {
+  left: 387px;
+  -webkit-animation-delay: 0.6489403497s;
+          animation-delay: 0.6489403497s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(187) {
+  left: 181px;
+  -webkit-animation-delay: 0.4144189826s;
+          animation-delay: 0.4144189826s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(188) {
+  left: 196px;
+  -webkit-animation-delay: 0.3235793737s;
+          animation-delay: 0.3235793737s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(189) {
+  left: 233px;
+  -webkit-animation-delay: 0.4325074566s;
+          animation-delay: 0.4325074566s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(190) {
+  left: 955px;
+  -webkit-animation-delay: 0.6553334777s;
+          animation-delay: 0.6553334777s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(191) {
+  left: 639px;
+  -webkit-animation-delay: 0.0427482962s;
+          animation-delay: 0.0427482962s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+[class|=blade]:nth-child(192) {
+  left: 305px;
+  -webkit-animation-delay: 0.427633211s;
+          animation-delay: 0.427633211s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+[class|=blade]:nth-child(193) {
+  left: 715px;
+  -webkit-animation-delay: 0.8516970338s;
+          animation-delay: 0.8516970338s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(194) {
+  left: 485px;
+  -webkit-animation-delay: 0.4897514663s;
+          animation-delay: 0.4897514663s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(195) {
+  left: 324px;
+  -webkit-animation-delay: 0.4554245048s;
+          animation-delay: 0.4554245048s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+[class|=blade]:nth-child(196) {
+  left: 751px;
+  -webkit-animation-delay: 0.5113517971s;
+          animation-delay: 0.5113517971s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(197) {
+  left: 557px;
+  -webkit-animation-delay: 0.3997633048s;
+          animation-delay: 0.3997633048s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+[class|=blade]:nth-child(198) {
+  left: 494px;
+  -webkit-animation-delay: 0.8888493964s;
+          animation-delay: 0.8888493964s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(199) {
+  left: 512px;
+  -webkit-animation-delay: 0.342349833s;
+          animation-delay: 0.342349833s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+[class|=blade]:nth-child(200) {
+  left: 605px;
+  -webkit-animation-delay: 0.0576074348s;
+          animation-delay: 0.0576074348s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+@-webkit-keyframes sway {
+  from {
+    transform: rotate(-12deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes sway {
+  from {
+    transform: rotate(-12deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
+}

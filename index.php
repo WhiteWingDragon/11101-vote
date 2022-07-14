@@ -8,6 +8,7 @@
     <title>星塵搖籃線上投票</title>
     <link rel="stylesheet" href="./css/basic.css">
     <link rel="stylesheet" href="./css/front.css">
+    <link rel="stylesheet" href="./css/button.css">
 </head>
 <body>
 <div id="header">
@@ -28,8 +29,6 @@ if(isset($file) && file_exists($file)){
 </div>
 <div>
     <?php include "./layout/footer.php";?>    
-</body>
-</html>
 </div>
 </body>
 </html>

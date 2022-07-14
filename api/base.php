@@ -1,10 +1,13 @@
 <?php
 session_start();
 date_default_timezone_set('Asia/Taipei');
-
+$dsn = "mysql:host=localhost;charset=utf8;dbname=vote"; $pdo = new PDO($dsn, 'root', ''); 
+//$dsn = "mysql:host=localhost;charset=utf8;dbname=s1110213"; $pdo = new PDO($dsn,'s1110213','s1110213');  
+//function pdo(){     $dsn="mysql:host=localhost;charset=utf8;dbname=vote";     return new PDO($dsn,'root','');     
+// $dsn = "mysql:host=localhost;charset=utf8;dbname=s1110213"; return new PDO($dsn,'s1110213','s1110213'); }
 function pdo(){
-    $dsn="mysql:host=localhost;charset=utf8;dbname=vote";
-    return new PDO($dsn,'root','');
+$dsn = "mysql:host=localhost;charset=utf8;dbname=vote"; return new PDO($dsn,'root','');
+//$dsn="mysql:host=localhost;charset=utf8;dbname=s1110213";return new PDO($dsn,'s1110213','s1110213');
 }
 /**
  * $table - 資料表名稱 字串型式
@@ -70,7 +73,7 @@ function all($table,...$arg){
     
         //fetchAll()加上常數參數FETCH_ASSOC是為了讓取回的資料陣列中
         //只有欄位名稱,而沒有數字的索引值
-        echo $sql;
+        //echo $sql;
         return $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
     
     }

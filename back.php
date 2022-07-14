@@ -10,6 +10,7 @@ include_once "./api/base.php"
     <title>投票管理整合頁</title>
     <link rel="stylesheet" href="./css/basic.css">
     <link rel="stylesheet" href="./css/back.css">
+    <link rel="stylesheet" href="./css/button.css">
 </head>
 <body>
 <div id="header">
@@ -26,7 +27,7 @@ if(isset($file) && file_exists($file)){
     include $file;
 }else{
 ?>
-    <button class="btn btn-primary" onclick="location.href='?do=add_vote'">新增投票</button>
+    <!-- <button class="btn btn-primary" onclick="location.href='?do=add_vote'">新增投票</button> -->
     <div>
         <ul>
             <li class="list-header">
